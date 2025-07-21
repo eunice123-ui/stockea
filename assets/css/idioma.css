@@ -1,0 +1,17 @@
+body {
+    background-color: #f5f9fd;
+    font-family: "Segoe UI", sans-serif;
+}
+
+select.form-select {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+button.btn {
+    font-weight: 500;
+    padding: 0.7rem;
+    border-radius: 8px;
+}

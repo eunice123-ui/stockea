@@ -1,0 +1,129 @@
+/* 🎨 Variables para temas visuales */
+.theme-claro {
+    --bg-body: #ffffff;
+    --bg-sidebar: #d9fdd3;
+    --bg-topbar: #c8f7e9;
+    --bg-cards: #e3faea;
+    --text-color: #1b4332;
+}
+
+.theme-oscuro {
+    --bg-body: #1f1f1f;
+    --bg-sidebar: #2d2d2d;
+    --bg-topbar: #333333;
+    --bg-cards: #3b3b3b;
+    --text-color: #f1f1f1;
+}
+
+.theme-verde {
+    --bg-body: #eafaf0;
+    --bg-sidebar: #c4f4cf;
+    --bg-topbar: #b2f2b6;
+    --bg-cards: #dafde3;
+    --text-color: #2c6f4a;
+}
+
+/* 🌿 Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-body);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* 📌 Sidebar */
+.sidebar {
+    width: 180px;
+    height: 100vh;
+    background-color: var(--bg-sidebar);
+    padding: 1rem;
+    position: relative;
+}
+
+/* 🧍 Imagen de perfil */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* 🗂️ Menú lateral */
+.card-menu {
+    background-color: #d9fdd3;
+    border-radius: 5px;
+    padding: 0.7rem 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card-menu:hover {
+    transform: translateY(-3px);
+}
+
+.menu-text {
+    font-size: 0.9rem;
+   color: var(--text-color);
+    font-weight: 500;
+}
+
+/* 🔝 Topbar */
+.topbar {
+    background-color: var(--bg-topbar);
+    padding: 0.5rem 1rem;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0;
+}
+
+/* 🖼️ Logo */
+.logo-grande {
+    max-height: 150px;
+    width: auto;
+    object-fit: contain;
+}
+/* 🧾 Tarjetas del dashboard */
+.card-option {
+    min-height: 130px;
+    padding: 1rem;
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-option:hover {
+    transform: translateY(-3px);
+}
+
+.card-option i {
+    font-size: 1.6rem;
+    color: #6c757d;
+}
+
+.card-option h5 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* 📎 Pie de página principal */
+.footer-main {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+

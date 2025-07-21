@@ -1,0 +1,13 @@
+body {
+    background-color: #f6fff8;
+}
+#calendar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.fc-toolbar-title {
+    font-size: 1.5rem;
+    color: #2d6a4f;
+}

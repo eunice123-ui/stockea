@@ -1,0 +1,25 @@
+body {
+    background-color: #f0fdf4;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h4 {
+    font-weight: bold;
+}
+
+.btn-success {
+    min-width: 120px;
+}
+
+.btn-secondary {
+    min-width: 120px;
+}

@@ -1,0 +1,113 @@
+body {
+  background: #eef2f7;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: -50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+button {
+  width: 100%;
+  background: #28a745;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.register-link {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.register-link a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 10px;
+}
+
+#togglePassword {
+  position: absolute;
+  right: -4px;
+  top: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.alert {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 0.95em;
+}
+
+.alert.danger {
+  background-color: #fdecea;
+  color: #d93025;
+}
+
+.alert.success {
+  background-color: #e6f4ea;
+  color: #188038;
+}
+/* Botón Volver al inicio */
+.btn-back {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-back:hover {
+  background-color: #007bff;
+  color: white;
+}

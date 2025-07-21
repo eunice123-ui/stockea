@@ -1,0 +1,23 @@
+/* Estilos para la vista de edición de productos */
+
+body {
+    background-color: #f8f9fa;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-success,
+.btn-secondary {
+    min-width: 150px;
+}

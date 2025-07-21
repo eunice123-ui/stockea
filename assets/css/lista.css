@@ -1,0 +1,42 @@
+/* Estilos personalizados para la vista de lista de productos */
+
+body {
+    background-color: #f0fdf4;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+}
+
+.table thead {
+    background-color: #198754;
+    color: white;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.alert-success {
+    font-weight: 500;
+}
+
+.pagination .page-link {
+    color: #198754;
+}
+
+.pagination .active .page-link {
+    background-color: #198754;
+    border-color: #198754;
+    color: white;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: #f3f7f9;
+}
+
+.opcion-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+}
+
+.opcion-card:hover {
+    transform: translateY(-5px);
+}
+
+.opcion-card i {
+    transition: transform 0.3s;
+}
+
+.opcion-card:hover i {
+    transform: scale(1.2);
+}
