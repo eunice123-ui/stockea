@@ -10,5 +10,8 @@ RUN a2enmod rewrite
 # Configura permisos
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
 
+# ✅ Agrega tipos MIME directamente a la configuración de Apache
+RUN echo "AddType text/css .css\nAddType application/javascript .js\nAddType image/jpeg .jpg\nAddType image/png .png" >> /etc/apache2/apache2.conf
+
 # Expone el puerto 80 (por defecto en Apache)
 EXPOSE 80
